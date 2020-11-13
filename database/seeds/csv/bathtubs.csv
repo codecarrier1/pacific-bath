@@ -1,0 +1,13 @@
+sku,price,subcategory,plumbing_position,width,depth,tub_color
+1123-LA-0,2650.00,Archer,Left,60,32,White
+1123-LA-96,2745.00,Archer,Left,60,32,Biscuit
+1123-RA-0,2650.00,Archer,Right,60,32,White
+1123-RA-96,2725.00,Archer,Right,60,32,Biscuit
+1946-LA-0,2650.00,Archer,Left,60,30,White
+1946-LA-96,2745.00,Archer,Left,60,30,Biscuit
+1946-RA-0,2650.00,Archer,Right,60,30,White
+1946-RA-96,2745.00,Archer,Right,60,30,Biscuit
+1118-LA-0,2750.00,Expanse,Left,60,30,White
+1118-LA-96,2850.00,Expanse,Left,60,30,Biscuit
+1118-RA-0,2750.00,Expanse,Right,60,30,White
+1118-RA-96,2850.00,Expanse,Right,60,30,Biscuit

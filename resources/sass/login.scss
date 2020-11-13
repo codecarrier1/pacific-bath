@@ -1,0 +1,136 @@
+@mixin animation($cssrule: all, $delay:.2ms, $effect:ease-in-out){
+  transition:$cssrule $delay $effect;
+}
+@font-face {
+	font-family: 'NunitoSans';
+	src: url('../fonts/NunitoSansBold.woff2') format('woff2'),
+	url('../fonts/NunitoSansBold.woff') format('woff');
+	font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+	font-family: 'NunitoSans';
+	src: url('../fonts/NunitoSansLight.woff2') format('woff2'),
+	url('../fonts/NunitoSansLight.woff') format('woff');
+	font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+	font-family: 'NunitoSans';
+	src: url('../fonts/NunitoSansRegular.woff2') format('woff2'),
+	url('../fonts/NunitoSansRegular.woff') format('woff');
+	font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+*{
+  margin:0;
+  padding:0;
+  outline:none;
+  -webkit-font-smoothing:antialiased;
+  -webkit-text-size-adjust:none;
+}
+img{
+  display: block;
+  margin: 0 auto;
+}
+html{
+  height: 100%;
+  font-size: 10px;
+}
+body{
+  color:#999;
+  background: #fff;
+	font:1.6rem NunitoSans,Arial,sans-serif;;
+	min-width: 32rem;
+	height: 100%;
+}
+#container{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row-reverse;
+}
+#rside{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+#lside{
+  width: 50%;
+  background: url(../images/img-login.jpg) no-repeat center;
+  background-size: cover;
+}
+.separator{
+  padding: 0 .8rem;
+}
+.footer{
+  font-size: 1.4rem;
+  margin-top: auto;
+  p{
+    margin: 0;
+  }
+  .logo{
+    display: block;
+    margin-bottom: 1.5rem;
+  }
+}
+#google-login{
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  background: #363535;
+  @include animation;
+  display: block;
+  border-radius: .8rem;
+  text-align: center;
+  padding: 1.4rem 1.5rem;
+  i{
+    display: inline-block;
+    background: url(../images/ico-google.png) no-repeat;
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+    margin-right: 1.5rem;
+  }
+  &:hover{
+    background: #222;
+  }
+}
+.login-holder{
+  margin-top: auto;
+  padding-bottom: 10rem;
+  h1{
+    margin-bottom: 9rem;
+  }
+  .date{
+    font-size: 2rem;
+    color: #b2b2b2;
+    margin-bottom: 3rem;
+  }
+  .holder{
+    max-width: 32rem;
+    margin: 0 auto;
+  }
+  h2{
+    color: #666;
+    font-size: 3.2rem;
+    margin-bottom: 1rem;
+  }
+  h3{
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 4rem;
+  }
+}

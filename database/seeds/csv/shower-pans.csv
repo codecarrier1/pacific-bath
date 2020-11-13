@@ -1,0 +1,45 @@
+sku,price,subcategory,plumbing_position,width,depth,pan_color,wall_kit_available
+8659-0,1723.00,Signature,Center,60,42,White,0
+8659-96,1723.00,Signature,Center,60,42,Biscuit,0
+8649-0,1523.00,Signature,Center,60,34,White ,1
+8649-96,1523.00,Signature,Center,60,34,Biscuit,1
+8458-0,1345.00,Signature,Right,60,32,White,1
+8458-96,1345.00,Signature,Right,60,32,Biscuit,1
+8459-0,1345.00,Signature,Left,60,32,White,1
+8459-96,1345.00,Signature,Left,60,32,Biscuit,1
+8642-0,1275.00,Signature,Right,60,30,White,1
+8642-96,1275.00,Signature,Right,60,30,Biscuit,1
+8643-0,1275.00,Signature,Left,60,30,White,1
+8643-96,1275.00,Signature,Left,60,30,Biscuit,1
+8648-0,1350.00,Signature,Center,48,42,White,0
+8648-96,1350.00,Signature,Center,48,42,Biscuit,0
+8461-0,1275.00,Signature,Center,48,34,White,1
+8461-96,1275.00,Signature,Center,48,34,Biscuit,1
+8638-0,1275.00,Signature,Right,48,32,White,1
+8638-96,1275.00,Signature,Right,48,32,Biscuit,1
+8639-0,1275.00,Signature,Left,48,32,White,1
+8639-96,1275.00,Signature,Left,48,32,Biscuit,1
+8647-0,1200.00,Signature,Center,36,42,White,0
+8647-96,1200.00,Signature,Center,36,42,Biscuit,0
+8644-0,1200.00,Signature,Center,36,34,White,1
+8644-96,1200.00,Signature,Center,36,34,Biscuit,1
+9479-0,2000.00,Specialty ,Center,60,36,White,0
+9479-96,2000.00,Specialty ,Center,60,36,Biscuit,0
+9397-0,1750.00,Specialty ,Center,48,36,White,0
+9397-96,1750.00,Specialty ,Center,48,36,Biscuit,0
+300B-P6030B75B-WW,2600.00,Barrier Free,Center,60,30,White,Sold Separately,1
+300B-P6030B75B-BI,2700.00,Barrier Free,Center,60,30,Biscuit,Sold Separately,1
+300B-P6032B75B-WW,2800.00,Barrier Free,Center,60,32,White,Sold Separately,1
+300B-P6032B75B-BI,2900.00,Barrier Free,Center,60,32,Biscuit,Sold Separately,1
+300B-P6034B75B-WW,3000.00,Barrier Free,Center,60,34,White,Sold Separately,1
+300B-P6034B75B-BI,3100.00,Barrier Free,Center,60,34,Biscuit,Sold Separately,1
+300B-P6036B75B-WW,3200.00,Barrier Free,Center,60,36,White,Sold Separately,0
+300B-P6036B75B-BI,3300.00,Barrier Free,Center,60,36,Biscuit,Sold Separately,0
+300B-P6042B1B-WW,3400.00,Barrier Free,Center,60,42,White,Sold Separately,0
+300B-P6042B1B-BI,3500.00,Barrier Free,Center,60,42,Biscuit,Sold Separately,0
+300B-P6048B1B-WW,3600.00,Barrier Free,Center,60,48,White,Sold Separately,0
+300B-P6048B1B-BI,3700.00,Barrier Free,Center,60,48,Biscuit,Sold Separately,0
+300B-P6060B1B-WW,3800.00,Barrier Free,Center,60,60,White,Sold Separately,0
+300B-P6060B1B-BI,3900.00,Barrier Free,Center,60,60,Biscuit,Sold Separately,0
+300B-P7248B1B-WW,4000.00,Barrier Free,Center,72,48,White,Sold Separately,0
+300B-P7248B1B-BI,4100.00,Barrier Free,Center,72,48,Biscuit,Sold Separately,0

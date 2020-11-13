@@ -1,0 +1,64 @@
+name: pacific-bath
+recipe: laravel
+excludes:
+  - .vapor
+config:
+  webroot: public
+  via: nginx
+  cache: redis
+  xdebug: true
+  php: '7.4'
+  database: mysql
+proxy:
+  mailhog:
+    - mail.pacificbath.lndo.site
+  node:
+    - bs.pacificbath.lndo.site:3000
+services:
+  cache:
+    portforward: 63799
+  database:
+    portforward: 33066
+  mailhog:
+    type: mailhog
+    portforward: true
+    hogfrom:
+      - appserver
+  node:
+    type: node
+    overrides:
+      ports:
+      - '3000:3000'
+  chromedriver:
+    type: compose
+    services:
+      image: robcherry/docker-chromedriver:latest
+      expose:
+        - '4444'
+      environment:
+        CHROMEDRIVER_WHITELISTED_IPS: ''
+        CHROMEDRIVER_URL_BASE: '/wd/hub'
+      security_opt:
+        - seccomp:unconfined
+      command: ["/usr/local/bin/supervisord", "-c", "/etc/supervisord.conf"]
+tooling:
+  yarn:
+    service: node
+  phpunit:
+    service: appserver
+    description: "Run PHP Unit tests: lando phpunit"
+    cmd: /app/vendor/bin/phpunit
+  phpcs:
+    service: appserver
+    description: "Run PHPCS code inspection"
+    cmd: "/app/vendor/bin/phpcs"
+  phpcbf:
+    service: appserver
+    cmd: "/app/vendor/bin/phpcbf"
+  chromedriver:
+    service: chromedriver
+    description: "Run chromedriver commands."
+  vapor:
+    service: appserver
+    cmd: "php vendor/bin/vapor"
+

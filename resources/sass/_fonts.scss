@@ -1,0 +1,80 @@
+// fonts
+@font-face {
+	font-family: 'NunitoSans';
+	src: url('#{$fonts-path}/NunitoSansBold.woff2') format('woff2'),
+	url('#{$fonts-path}/NunitoSansBold.woff') format('woff');
+	font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+	font-family: 'NunitoSans';
+	src: url('#{$fonts-path}/NunitoSansLight.woff2') format('woff2'),
+	url('#{$fonts-path}/NunitoSansLight.woff') format('woff');
+	font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+	font-family: 'NunitoSans';
+	src: url('#{$fonts-path}/NunitoSansRegular.woff2') format('woff2'),
+	url('#{$fonts-path}/NunitoSansRegular.woff') format('woff');
+	font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+	font-family: 'NunitoSans';
+	src: url('#{$fonts-path}/NunitoSansExtraBold.woff2') format('woff2');
+	font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'pacificbath';
+  src: url('#{$fonts-path}/pacificbath/font/pacificbath.woff2?5352593') format('woff2'),
+  url('#{$fonts-path}/pacificbath/font/pacificbath.woff?5352593') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+ 
+[class^="fa-"]:before, [class*=" fa-"]:before {
+  font-family: "pacificbath";
+  font-style: normal;
+  font-weight: normal;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-angle-down:before { content: '\e800'; }
+.fa-bath:before { content: '\e801'; }
+.fa-bell:before { content: '\e802'; }
+.fa-caret-down:before { content: '\e803'; }
+.fa-caret-up:before { content: '\e804'; }
+.fa-door-open:before { content: '\e805'; }
+.fa-check:before { content: '\e806'; }
+.fa-clipboard-list:before { content: '\e807'; }
+.fa-file-invoice-dollar:before { content: '\e808'; }
+.fa-list-alt:before { content: '\e809'; }
+.fa-pencil-ruler:before { content: '\e80a'; }
+.fa-angle-left:before { content: '\e80b'; }
+.fa-angle-right:before { content: '\e80c'; }
+.fa-times:before { content: '\e80d'; }
+.fa-minus:before { content: '\e80e'; }
+.fa-plus:before { content: '\e80f'};
+.fa-file-alt:before { content: '\e810'; }
+.fa-cc-amex:before { content: '\e811'; }
+.fa-cc-mastercard:before { content: '\e812'; }
+.fa-cc-visa:before { content: '\e813'; }
+.fa-check-circle:before { content: '\e814'; }
+.fa-chevron-down:before { content: '\e815'; }
+.fa-check-1:before { content: '\e816'; }

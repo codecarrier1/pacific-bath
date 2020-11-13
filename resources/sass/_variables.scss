@@ -1,0 +1,13 @@
+$fonts:NunitoSans,Arial,sans-serif;
+
+$fonts-path: "../fonts" !default;
+
+@mixin animation($cssrule: all, $delay:.2ms, $effect:ease-in-out){
+  transition:$cssrule $delay $effect;
+}
+
+@mixin vertical-align($position: relative) {
+  position: $position;
+  top: 50%;
+  transform: translateY(-50%);
+}

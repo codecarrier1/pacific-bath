@@ -1,0 +1,6 @@
+models:
+    ProductInformation:
+        service_id: id
+        type: string:255
+        content: longtext
+        weight: int

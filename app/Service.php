@@ -47,7 +47,7 @@ class Service extends Model
 
     const WALK_INS = 2;
 
-    const BATHTUBS = 3;
+    const BATHTUBS =3;
 
     protected $guarded = [];
 
